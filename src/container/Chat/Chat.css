@@ -1,0 +1,38 @@
+.chat{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    border-radius: 7px;
+    background: #0e1621;
+    border: 1px solid #17212b;
+}
+
+.messages {
+    overflow: auto;
+    max-height: 500px;
+    padding: 20px;
+    background: #0e1621;
+    border: 1px solid #17212b;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #182633;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #182633;
+}
+
+body {
+    background: #0e1621;
+}
