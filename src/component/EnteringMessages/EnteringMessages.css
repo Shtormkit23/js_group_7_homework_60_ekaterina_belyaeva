@@ -1,0 +1,86 @@
+.form-group {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+form {
+    padding: 15px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #17212b;
+}
+
+.form-control {
+    display: block;
+    height: calc(1.2em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: "Fira Code";
+    outline: blueviolet;
+}
+
+.column-1 {
+    margin: 0 20px 0 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.author {
+    width: 150px;
+}
+
+.message-form {
+    width: 600px;
+}
+
+.btn-send {
+    position: absolute;
+    top: 16px;
+    width: 110px;
+    height: 45px;
+    right: 50px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 17px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-send:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+    outline: none;
+}
+.btn-send:active,
+.btn-send:focus{
+    border-color: #1d2124;
+    outline: none;
+}
+
+.author-input,
+.message-input{
+    background: #17212b;
+    color: #ced4da;
+}
